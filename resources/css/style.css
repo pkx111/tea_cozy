@@ -3,11 +3,11 @@ body{
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
   margin: 0;
 
 }
+/* Header Section */
 header{
   position: fixed;
   height: 69px;
@@ -16,6 +16,7 @@ header{
   display: flex;
   z-index: 1;
   align-items: center;
+  background-color: black;
 
 }
 header nav{
@@ -39,10 +40,96 @@ nav{
 }
 nav a{
   color: seashell;
+  text-decoration: underline;
 
 }
 nav span{
   display: inline-block;
   padding: 10px;
 
+}
+
+/* Content Section */
+/*div{border: 1px solid white;}*/
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  padding-top: 69px;
+  margin: auto;
+  opacity: 0.9;
+
+}
+#mission{
+  display: flex;
+  height: 700px;
+  width: 100%;
+  margin-top: 0;
+
+}
+.m_image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../media/img-mission-background.jpg");
+  background-position: center;
+  width: 100%;
+
+}
+.imgtext{
+  background-color: black;
+
+}
+#features{
+  display: block;
+  width: 1000px;
+
+}
+
+.feature{
+  display: flex;
+
+}
+
+
+#locations{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  margin-top: 0;
+
+}
+.l_image{
+  display: flex;
+  flex-direction: column;
+  background-image: url("../media/img-locations-background.jpg");
+  width: 100%;
+  padding-top: 70px;
+
+}
+.locholder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.location{
+  background-color: black;
+  width: 300px;
+  margin-right: 20px;
+
+}
+h2, h4,{
+  margin: 0;
+  padding: 10px;
+
+}
+
+/* Footer Section */
+footer{
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
 }
