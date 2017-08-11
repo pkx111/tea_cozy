@@ -5,9 +5,10 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+
 }
 header{
-  margin: 0;
   position: fixed;
   height: 69px;
   width: 100%;
@@ -43,5 +44,5 @@ nav a{
 nav span{
   display: inline-block;
   padding: 10px;
-  
+
 }
