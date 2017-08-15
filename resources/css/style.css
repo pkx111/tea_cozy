@@ -5,6 +5,7 @@ body{
   background-color: black;
   text-align: center;
   margin: 0;
+  opacity: 0.9;
 
 }
 /* Header Section */
@@ -48,13 +49,13 @@ nav span{
   padding: 10px;
 
 }
+/*div{border: 1px solid red;}*/
 
 /* Content Section */
 .content{
   width: 1200px;
   padding-top: 69px;
   margin: auto;
-  opacity: 0.9;
 
 }
 #mission{
@@ -77,21 +78,24 @@ nav span{
 
 }
 #features{
-  display: block;
   width: 1000px;
+  padding: 69px;
+  margin: auto;
 
 }
-.feature{
+.featcont{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature img{
   width: 300px;
+  height: 200px;
+  padding: 20px 16px 10px 16px;
 
 }
-.berry.feature{
-  background-image: url("../media/img-berryblitz.jpg");
-
-}
-.rum.feature{
-  background-image: url("../media/img-spiced-rum.jpg");
+.feature p{
+  margin: 0;
 
 }
 #locations{
@@ -120,10 +124,8 @@ h2, h3, h4{
   padding: 10px;
 
 }
-
 /* Footer Section */
 footer{
-  display: flex;
   text-align: left;
   padding-left: 20px;
 }
